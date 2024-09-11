@@ -1,6 +1,6 @@
 {
-    "title": "Business Frontpage",
-    "name": "startbootstrap-business-frontpage",
+    "title": "Kyles IS 581 Landing Page",
+    "name": "is581-landing-page",
     "version": "5.0.9",
     "scripts": {
         "build": "npm run clean && npm run build:pug && npm run build:scss && npm run build:scripts && npm run build:assets",
@@ -12,7 +12,7 @@
         "start": "npm run build && node scripts/start.js",
         "start:debug": "npm run build && node scripts/start-debug.js"
     },
-    "description": "A simple business HTML landing page built with Bootstrap",
+    "description": "This will be my static landing page for the IS 581 assignment. Cloned from the business-frontpage Bootstrap template on GitHub.",
     "keywords": [
         "css",
         "sass",
