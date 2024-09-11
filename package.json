@@ -21,7 +21,7 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/template/business-frontpage",
+    "homepage": "https://kylehar9.github.io/landingPage1/dist/index.html",
     "bugs": {
         "url": "https://github.com/StartBootstrap/startbootstrap-business-frontpage/issues",
         "email": "feedback@startbootstrap.com"
@@ -29,11 +29,12 @@
     "license": "MIT",
     "author": "Start Bootstrap",
     "contributors": [
+        "Kyle Harline",
         "David Miller (https://davidmiller.io/)"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/StartBootstrap/startbootstrap-business-frontpage.git"
+        "url": "https://github.com/kylehar9/landingPage1.git"
     },
     "dependencies": {
         "bootstrap": "5.2.3"
