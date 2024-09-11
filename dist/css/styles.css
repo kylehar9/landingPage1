@@ -10833,6 +10833,10 @@ textarea.form-control-lg {
   color: lawngreen;
 }
 
-.nav-link:active {
+.nav-link .active {
+  color: lawngreen;
+}
+
+.bs-nav-link-hover-color {
   color: lawngreen;
 }

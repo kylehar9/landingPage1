@@ -19,7 +19,11 @@ $secondary: lawngreen;
 }
 
 .nav-link {
-    &:active {
+    .active {
         color: $secondary;
     }
 }
+
+//.bs-nav-link-hover-color { // Does nothing
+//    color: $secondary;
+//}
