@@ -1,5 +1,5 @@
 $primary: orange;
-$secondary: lawngreen;
+$secondary: #9B93FF;
 
 // Import Bootstrap
 @import "bootstrap/scss/bootstrap.scss";
@@ -22,6 +22,10 @@ $secondary: lawngreen;
     .active {
         color: $secondary;
     }
+}
+
+.highlight-text {
+    color: $primary;
 }
 
 //.bs-nav-link-hover-color { // Does nothing
