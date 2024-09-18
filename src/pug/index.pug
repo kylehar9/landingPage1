@@ -8,7 +8,7 @@ html(lang='en')
         meta(name='description', content='')
         meta(name='author', content='')
 
-        title IS 581 Landing Page
+        title Gg, Entropy - Home Page
 
         // Favicon
         link(rel='icon', type='image/x-icon', href='assets/GGfavicon.ico')
@@ -30,17 +30,17 @@ html(lang='en')
                 #navbarSupportedContent.collapse.navbar-collapse
                     ul.navbar-nav.ms-auto.mb-2.mb-lg-0
                         li.nav-item
-                            a.nav-link.active(aria-current='page', href='#!') Home
+                            a.nav-link.active(aria-current='page', href='#home') Home
                         li.nav-item
                             a.nav-link(href='#about') About
                         li.nav-item
-                            a.nav-link(href='#contact') Contact
+                            a.nav-link(href='#coming-soon') Coming Soon
                         li.nav-item
-                            a.nav-link(href='#services') Services
+                            a.nav-link(href='#contact') Contact
 
 
         // Header
-        header.bg-dark.py-5.hero
+        header#home.bg-dark.py-5.hero
             .container.px-5
                 .row.gx-5.justify-content-center
                     .col-lg-6.content-box
@@ -49,12 +49,12 @@ html(lang='en')
                             p.lead.text-white-50.mb-4 Take your ideas at any point in the creation process and
                              span.highlight-text make. Them. Happen.
                             .d-grid.gap-3.d-sm-flex.justify-content-sm-center
-                                a.btn.btn-primary.btn-lg.px-4.me-sm-3(href='#features') Get Started
-                                a.btn.btn-outline-light.btn-lg.px-4(href='#!') Contact us
+                                a.btn.btn-primary.btn-lg.px-4.me-sm-3(href='#about') Get Started
+                                a.btn.btn-outline-light.btn-lg.px-4(href='#contact') Contact us
 
 
         // Features section
-        section#features.py-5.border-bottom
+        section#about   .py-5.border-bottom
             .container.px-5.my-5
                 .row.gx-5
                     .col-lg-4.mb-5.mb-lg-0
@@ -85,15 +85,16 @@ html(lang='en')
                             | Call to action
                             i.bi.bi-arrow-right
 
-        section.bg-light.border-bottom.coming-soon-section.py-5
-          .container
+        // Coming Soon section
+        section#coming-soon.bg-light.border-bottom.coming-soon-section.py-5
+          .container.my-5.px-5
             .row
               .col-md-4.mb-4.mb-md-0
                 img.styled-img.img-fluid(src="../assets/phone_user.jpg", alt="Coming Soon Image")
-              .col-md-8.d-flex.align-items-center
+              .col-md-8.px-5.align-items-center
                 .content
                   h1 Coming Soon
-                  p.lead Both web and mobile apps are under construction. Stay tuned for something amazing!
+                  p.lead Both web and mobile apps for Gg, Entropy are under construction. Stay tuned for something amazing!
                   form
                     .form-group.mb-3
                       label(for="email") Notify me when we're live!
@@ -101,7 +102,7 @@ html(lang='en')
                     button.btn.btn-primary(type="submit") Notify Me
 
         // Testimonials section
-        section.py-5.border-bottom
+        section#testimonials.py-5.border-bottom
             .container.px-5.my-5.px-5
                 .text-center.mb-5
                     h2.fw-bolder Customer testimonials
@@ -139,7 +140,7 @@ html(lang='en')
 
 
         // Contact section
-        section.bg-light.py-5#contact
+        section#contact.bg-light.py-5
             .container.px-5.my-5.px-5
                 .text-center.mb-5
                     .feature.bg-primary.bg-gradient.text-white.rounded-3.mb-3
