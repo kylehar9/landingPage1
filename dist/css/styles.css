@@ -10830,13 +10830,23 @@ textarea.form-control-lg {
 }
 
 .custom-navbar-brand {
-  color: #9B93FF;
+  color: orange;
 }
 
+.nav-link:active {
+  color: orange;
+}
 .nav-link .active {
-  color: #9B93FF;
+  color: orange;
 }
 
 .highlight-text {
   color: orange;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999; /* Keeps it above other content */
 }

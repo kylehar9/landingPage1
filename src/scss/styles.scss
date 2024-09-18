@@ -15,17 +15,27 @@ $secondary: #9B93FF;
 }
 
 .custom-navbar-brand {
-    color: $secondary;
+    color: $primary;
 }
 
 .nav-link {
+    &:active {
+        color: $primary;
+    }
     .active {
-        color: $secondary;
+        color: $primary;
     }
 }
 
 .highlight-text {
     color: $primary;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999; /* Keeps it above other content */
 }
 
 //.bs-nav-link-hover-color { // Does nothing

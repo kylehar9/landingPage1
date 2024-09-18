@@ -22,9 +22,9 @@ html(lang='en')
     body
 
         // Responsive navbar
-        nav.navbar.navbar-expand-lg.navbar-dark.bg-dark
+        nav.navbar.navbar-expand-lg.navbar-dark.bg-dark.sticky
             .container.px-5
-                a.navbar-brand.custom-navbar-brand(href='#!') Start Bootstrap
+                a.navbar-brand.custom-navbar-brand(href='#!') Gg, Entropy
                 button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
                     span.navbar-toggler-icon
                 #navbarSupportedContent.collapse.navbar-collapse
@@ -32,11 +32,12 @@ html(lang='en')
                         li.nav-item
                             a.nav-link.active(aria-current='page', href='#!') Home
                         li.nav-item
-                            a.nav-link(href='#!') About
+                            a.nav-link(href='#about') About
                         li.nav-item
-                            a.nav-link(href='#!') Contact
+                            a.nav-link(href='#contact') Contact
                         li.nav-item
-                            a.nav-link(href='#!') Services
+                            a.nav-link(href='#services') Services
+
 
         // Header
         header.bg-dark.py-5
@@ -49,7 +50,8 @@ html(lang='en')
                              span.highlight-text make. Them. Happen.
                             .d-grid.gap-3.d-sm-flex.justify-content-sm-center
                                 a.btn.btn-primary.btn-lg.px-4.me-sm-3(href='#features') Get Started
-                                a.btn.btn-outline-light.btn-lg.px-4(href='#!') Learn More
+                                a.btn.btn-outline-light.btn-lg.px-4(href='#!') Contact us!
+
 
         // Features section
         section#features.py-5.border-bottom
@@ -227,7 +229,7 @@ html(lang='en')
                                         .small.text-muted - Client Name, Location
 
         // Contact section
-        section.bg-light.py-5
+        section.bg-light.py-5#contact
             .container.px-5.my-5.px-5
                 .text-center.mb-5
                     .feature.bg-primary.bg-gradient.text-white.rounded-3.mb-3
