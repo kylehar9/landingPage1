@@ -49,6 +49,13 @@ $backgrounds: rgb(33, 37, 41);
     text-align: center;
 }
 
+.styled-img {
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+    object-fit: cover; /* Ensures the image fits well */
+    max-height: 400px; /* Limits the height to make it more balanced */
+}
+
 
 .hero {
     height: 100vh; /* Full viewport height */
